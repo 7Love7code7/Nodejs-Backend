@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title></title>
+        <style>
+        @import url("https://fonts.googleapis.com/css?family=Montserrat");
+        @import url("https://fonts.googleapis.com/css?family=Montserrat:i,b,bi");
+        @import url("https://fonts.googleapis.com/css?family=Poppins");
+        @import url("https://fonts.googleapis.com/css?family=Poppins:i,b,bi");
+        @import url("https://fonts.googleapis.com/css?family=Times%20New%20Roman");
+        @import url("https://fonts.googleapis.com/css?family=Times%20New%20Roman:i,b,bi");
+        @import url("https://fonts.googleapis.com/css?family=Courier+New");
+        @import url("https://fonts.googleapis.com/css?family=Courier+New:i,b,bi");
+        @import url("https://fonts.googleapis.com/css?family=Georgia");
+        @import url("https://fonts.googleapis.com/css?family=Georgia:i,b,bi");
+        @import url("https://fonts.googleapis.com/css?family=Lucida+Sans");
+        @import url("https://fonts.googleapis.com/css?family=Lucida+Sans:i,b,bi");
+        @import url("https://fonts.googleapis.com/css?family=Tahoma");
+        @import url("https://fonts.googleapis.com/css?family=Tahoma:i,b,bi");
+        @import url("https://fonts.googleapis.com/css?family=Trebuchet%20MS");
+        @import url("https://fonts.googleapis.com/css?family=Trebuchet%20MS:i,b,bi");
+        @import url("https://fonts.googleapis.com/css?family=Verdana");
+        @import url("https://fonts.googleapis.com/css?family=Verdana:i,b,bi");
+
+        .ck-content {
+            position: relative;
+            padding: 76px;
+            margin-top: -76px;
+            overflow: visible;
+            background-color: white;
+            color: #000;
+            font-size: 15px;
+            font-family: "Poppins",sans-serif;
+            font-weight: normal;
+        }
+        .ck-content code {
+            background-color: hsla(0, 0%, 78%, 0.3);
+            padding: .15em;
+            border-radius: 2px;
+        }
+        .text-tiny {
+            font-size: .7em;
+        }
+        .text-small {
+            font-size: .85em;
+        }
+        .text-big {
+            font-size: 1.4em;
+        }
+        .text-huge {
+            font-size: 1.8em;
+        }
+        .ck.ck-heading_heading1 {
+            font-size: 20px;
+        }
+        .ck.ck-heading_heading2 {
+            font-size: 17px;
+        }
+        .ck.ck-heading_heading3 {
+            font-size: 14px;
+        }
+        .ck[class*="ck-heading_heading"] {
+            font-weight: bold;
+        }
+        .ck-content .image {
+            clear: both;
+            text-align: center;
+
+            /* Make sure there is some space between the content and the image. */
+            margin: 1em 0;
+        }
+        .ck-content .image > img {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+        }
+        .ck-content .image > figcaption {
+            color: hsl(0, 0%, 20%);
+            background-color: hsl(0, 0%, 97%);
+            padding: .6em;
+            font-size: .75em;
+            outline-offset: -1px;
+        }
+        :root {
+            --ck-image-style-spacing: 1.5em;
+        }
+        .ck-content * {
+            position: relative;
+            z-index: 1;
+        }
+        .ck-content .image-style-side,
+        .ck-content .image-style-align-left,
+        .ck-content .image-style-align-center,
+        .ck-content .image-style-align-right,
+        .ck-content .image-style-absolute,
+        .ck-content .image-style-inline, {
+            width: 50%;
+        }
+        .ck-content .image-style-side {
+            float: right;
+            margin-left: var(--ck-image-style-spacing);
+        }
+        .ck-content .image-style-align-left {
+            float: left;
+            margin-right: var(--ck-image-style-spacing);
+        }
+        .ck-content .image-style-align-center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .ck-content .image-style-align-right {
+            float: right;
+            margin-left: var(--ck-image-style-spacing);
+        }
+        .ck-content .image-style-absolute {
+            position: absolute;
+        }
+        .ck-content .image-style-inline {
+            display: inline-block;
+        }
+        .ck-content .image {
+            z-index: 2;
+        }
+        .ck-content .image.image-style-absolute.image-zindex-back {
+            z-index: 0;
+        }
+        </style>
+    </head>
+    <body class="ck-content">
