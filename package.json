@@ -40,7 +40,7 @@
     "moment": "^2.22.1",
     "money": "^0.2.0",
     "mongo-xlsx": "^1.0.12",
-    "mongoose": "^4.9.0",
+    "mongoose": "^5.7.5",
     "mongoose-autopopulate": "^0.8.0",
     "mongoose-deep-populate": "^3.1.1",
     "morgan": "^1.9.1",
