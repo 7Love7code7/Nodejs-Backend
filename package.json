@@ -50,7 +50,7 @@
     "multiparty": "^4.2.1",
     "ngrok": "^2.2.25",
     "node-cache": "^4.1.0",
-    "node-fetch": "^2.2.0",
+    "node-fetch": "^2.6.1",
     "node-gcm": "^1.0.2",
     "nodemailer": "^4.7.0",
     "nodemailer-smtp-transport": "^2.7.4",
