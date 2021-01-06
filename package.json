@@ -6,7 +6,7 @@
   "dependencies": {
     "@sendgrid/mail": "^6.2.1",
     "aws-sdk": "^2.299.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bcrypt": "*",
     "bcrypt-nodejs": "*",
     "bcryptjs": "^2.4.3",
