@@ -52,7 +52,7 @@
     "node-cache": "^4.1.0",
     "node-fetch": "^2.2.0",
     "node-gcm": "^1.0.2",
-    "nodemailer": "^4.7.0",
+    "nodemailer": "^6.4.16",
     "nodemailer-smtp-transport": "^2.7.4",
     "open-exchange-rates": "^0.3.0",
     "pdf-image": "^2.0.0",
