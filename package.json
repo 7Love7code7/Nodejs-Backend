@@ -71,7 +71,7 @@
     "swagger": "^0.7.5",
     "twilio": "^3.25.0",
     "uuid": "^3.3.2",
-    "xlsx": "^0.13.0"
+    "xlsx": "^0.17.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
